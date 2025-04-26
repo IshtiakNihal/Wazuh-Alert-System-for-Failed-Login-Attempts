@@ -88,7 +88,7 @@ sudo bash wazuh-install.sh -a --overwrite
 
 After giving this command it will take some moment and in last there will be username and password. You need to save those credentials for login in Wazuh.
 
-![alt text](image.png)
+![alt text](wazuh&failed-log_iamges/image.png)
 
 This will:
 
@@ -111,7 +111,7 @@ ip a
 
 For checking which ip is working. It will show like this
 
-![alt text](image-1.png)
+![alt text](wazuh&failed-log_iamges/image-1.png)
 
 Need to copy the inet 192.168.246.140 and use this in a browser like this
 
@@ -220,7 +220,7 @@ ssh fakeuser@localhost
 
 After entering we need to give wrong password or just enter like this
 
-![alt text](image-2.png)
+![alt text](wazuh&failed-log_iamges/image-2.png)
 
 ### 🧪 Step 4: Check If Logs Were Created
 
@@ -236,19 +236,21 @@ and by doing that it will show in the Wazuh Dashboard
 
 we need to go in 
 
-![alt text](image-3.png)
+![alt text](wazuh&failed-log_iamges/image-3.png)
 
 after clicking Security Events it will show like this:
 
-![alt text](image-4.png)
+![alt text](wazuh&failed-log_iamges/image-4.png)
 
 there we can use filter for knowing which users do what like this
 
-![alt text](image-5.png)
+![alt text](wazuh&failed-log_iamges/image-5.png)
 
 after selecter fakeuser it will show how attempts they do
 
-![alt text](image-6.png)
+![alt text](wazuh&failed-log_iamges/image-6.png)
 
 
 I will update this after some times. But this will help to progress in further analysis.
+
+[def]: image.png
